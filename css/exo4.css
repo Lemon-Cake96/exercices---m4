@@ -1,0 +1,242 @@
+body {
+    width: 99%;
+    height: 800px;
+}
+
+nav{
+    width: auto;
+    height: 5%;
+}
+
+header {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: auto;
+    height: 10%;
+}
+
+main {
+    background-color: pink;
+    width: auto;
+    height: 75%;
+}
+
+#menu {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: auto;
+    height: 5%;
+}
+
+#container1 {
+    display: flex;
+    width: auto;
+    height: 46%;
+}
+
+#container2 {
+    display: flex;
+    width: auto;
+    height: 46%;
+}
+
+.griditem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#box1 {
+    background-color: white;
+    margin: 1%;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(2,50%);
+    width: 50%;
+}
+
+#box2 {
+    background-color: white;
+    margin: 1%;
+    margin-left: 0;
+    margin-bottom: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(2,50%);
+    width: 50%;
+}
+
+#box3 {
+    background-color: white;
+    margin: 1%;
+    margin-top: 0;
+    margin-right: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(2,50%);
+    width: 50%;
+}
+
+#box4 {
+    background-color: white;
+    margin: 1%;
+    margin-top: 0;
+    margin-left: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(2,50%);
+    width: 50%;
+}
+
+#item1 {
+    background-color: red;
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#item2 {
+    background-color: red;
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+#item3 {
+    background-color: red;
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+#item4 {
+    background-color: red;
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+#item5 {
+    background-color: rgb(255, 187, 0);
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#item6 {
+    background-color: rgb(255, 187, 0);
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+#item7 {
+    background-color: rgb(255, 187, 0);
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+#item8 {
+    background-color: rgb(255, 187, 0);
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+#item9 {
+    background-color: green;
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#item10 {
+    background-color: green;
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+#item11 {
+    background-color: green;
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+#item12 {
+    background-color: green;
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+#item13 {
+    background-color: rgb(181, 71, 71);
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#item14 {
+    background-color: rgb(181, 71, 71);
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+#item15 {
+    background-color: rgb(181, 71, 71);
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+#item16 {
+    background-color: rgb(181, 71, 71);
+    border: 2px,solid,white;
+    margin: 0;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+footer {
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: auto;
+    height: 10%;
+}
+

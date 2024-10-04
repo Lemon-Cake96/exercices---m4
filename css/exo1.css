@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+}
+main {
+    box-sizing: content-box;
+    width: 100%; 
+
+
+}
+
+#z1 {
+    box-sizing: content-box;
+    height: 100px;
+    background-color: rgb(249, 71, 71);
+
+}
+
+#box {
+    display: flex;
+}
+
+#z2 {
+    background-color: cornflowerblue;
+    padding-top: 2vh;
+    padding-right: 10vh;
+    padding-bottom: 70vh;
+
+}
+
+#z3 {
+    background-color: lightgreen;
+    padding-top: 2vh;
+    padding-bottom: 70vh;
+    padding-right: 170vh;
+
+}

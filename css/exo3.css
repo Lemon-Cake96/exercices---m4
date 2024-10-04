@@ -1,0 +1,43 @@
+body {
+    width: 99%;
+    height: 800px;
+    border: 2px,solid;
+}
+
+nav {
+    width: auto;
+    height: 5%;
+}
+
+header {
+    background-color: lightseagreen;
+    width: auto;
+    height: 10%;
+}
+
+main {
+   /* background-color: bisque;*/
+    width: auto;
+    height: 77%;
+}
+
+footer {
+    background-color: lightseagreen;
+    width: auto;
+    height: 6%;
+}
+
+#menu {
+    background-color: purple;
+    display: flex;
+    height: 5%;
+    width: auto;
+}
+
+#mileu {
+    background-color: goldenrod;
+    width: auto;
+    height: 80%;
+    margin: 4%;
+}
+

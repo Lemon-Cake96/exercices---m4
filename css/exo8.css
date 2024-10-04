@@ -1,0 +1,27 @@
+body {
+    width: 99%;
+    height: 400px;
+}
+
+nav {
+    width: auto;
+    height: 10%;
+}
+
+main {
+    width: 99%;
+    height: 100%;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+td, tr {
+    border: 3px,solid,black;
+    padding: 30px;
+    padding-right: 40px;
+}

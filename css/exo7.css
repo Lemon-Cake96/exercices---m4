@@ -1,0 +1,226 @@
+body {
+    width: 100%;
+    max-width: 99%;
+    height: 1300px;
+}
+
+nav {
+    width: auto;
+    height: 2%;
+}
+
+header {
+    width: 90%;
+    height: 5%;
+    position: relative;
+    left: 5%;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+#box1{
+    width: 80%;
+    height: 5%;
+    position: relative;
+    left: 10%;
+    margin-top: 0.5%;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+#box1 > p {
+    position: relative;
+    left: 2%;
+    margin-top: 2%;
+}
+
+.navitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    color: white;
+}
+
+main {
+    width: auto;
+    height: 88%;
+    position: relative;
+    top: -1%;
+}
+
+#section1 {
+    background-color: rgb(99, 236, 108);
+    width: auto;
+    height: 50%;
+}
+
+#box2 {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+#box2 > aside {
+    background-color: rgb(189, 189, 189);
+    width: 40%;
+    height: 100%;
+    margin: 2%;
+    display: flex;
+}
+
+#section1 > p {
+    display: flex;
+    justify-content: center;
+}
+
+#p1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10%;
+}
+
+#p2 {
+    color: white;
+    align-self: center;
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+}
+
+#box2 > article {
+    background-color: rgb(189, 189, 189);
+    width: 50%;
+    height: 100%;
+    margin: 2%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#p3 {
+    text-align: center;
+}
+
+#p4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 40%;
+
+}
+
+#section2 {
+    background-color: rgb(255, 247, 103);
+    width: auto;
+    height: 50%;
+}
+
+#section2>p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#box3 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 90%;
+    margin: 2%;
+}
+
+#box3 > article {
+    background-color: rgb(189, 189, 189);
+    width: 25%;
+    height: 100%;
+}
+
+#text1 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+}
+
+#box4 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 98%;
+    margin: 2%;
+}
+
+#box4 > aside {
+    height: 30%;
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+    position: relative;
+    top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#box5 {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    margin: 2%;
+}
+
+#box5 > aside {
+    background-color: skyblue;
+    height: 100%;
+    width: 40%;
+}
+
+#box5 > aside > a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+}
+
+#box6 {
+    width: 60%;
+    margin: 2%;
+}
+
+footer {
+    background-color: brown;
+    width: 99%;
+    height: 30%;
+}
+
+#box6 > article {
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+    height: 66%;
+    position: relative;
+    top: -7%;
+}
+
+#text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 25%;
+    font-size: 30px;
+}

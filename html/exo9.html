@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 1</title>
+    <link href="../css/exo9.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="../index.html">
+                <li>Retour</li>
+            </a>
+        </ul>
+    </nav>
+    <main id="main">
+        <section class="block">
+            <h2 class="title">Information personnelle</h2>
+            <form>
+                <ul>
+                    <li class="list_member">
+                        <label for="civil">Civilité * :</label>
+                        <select id="civil">
+                            <option value="">--Choisir une civilité--</option>
+                            <option value="Monsieur">Monsieur</option>
+                            <option value="Madame">Madame</option>
+                        </select>
+                    </li>
+                    <li class="list_member">
+                        <label for="nom">Nom * :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre Nom ici"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="prenom">Prénom * :</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Votre Prénom ici"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="birth">Date de naissance * :</label>
+                        <input type="date" id="birth" name="birth"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="ftel">Numéro de télephone fixe :</label>
+                        <input type="tel" id="ftel" name="ftel"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="tel_port">Numéro de télephone portable * :</label>
+                        <input type="tel" id="tel_port" name="tel_port"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="num_rue">Numéro de Rue * :</label>
+                        <input type="text" id="num_rue" name="num_rue" placeholder="N°" maxlength="4" pattern="d/"/>
+                        <label for="nom_rue">Nom de rue * :</label>
+                        <input type="text" id="nom_rue" name="nom_rue" placeholder="Nom de rue"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="post_code">Code Postal * :</label>
+                        <input type="text" id="post_code" name="post_code" placeholder="Votre code postal ici" maxlength="5"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="city">Ville * :</label>
+                        <input type="text" id="city" name="city" placeholder="Votre Ville ici"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="username"><strong>Pseudo * :</strong></label>
+                        <input type="text" id="username" name="username" placeholder="Entrer votre pseudo ici"/>
+                    </li>
+                    <li class="list_member">
+                        <label for="passw"><strong>Mot de passe * :</strong></label>
+                        <input type="password" id="passw" name="passw" placeholder="Entrer votre mot de passe ici"/>
+                        <input type="button" value="Soumettre"/>
+                        <input type="checkbox" id="memo" name="memo"/>
+                        <label for="memo">Se souvenir de moi</label>
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <section class="block">
+            <h2 class="title">Information Complémentaires</h2>
+            <form action="" method="post">
+                <div>
+                    <label for="niveau">Quel est votre niveau en devéloppement ?</label>
+                    <input type="radio" id="niveau" name="niveau"/>
+                    <label for="niveau">Débutant</label>
+                    <input type="radio" id="niveau2" name="niveau"/>
+                    <label for="niveau">Junior</label>
+                    <input type="radio" id="niveau3" name="niveau"/>
+                    <label for="niveau">Expert</label>
+                </div>
+                <p>Quel est votre niveau de connaissances dans les différents languages :</p>
+                <ul>
+                    <li class="list_member">
+                        <input type="checkbox" name="html" id="html"/>
+                        <label for="html">html/css</label>
+                    </li>
+                    <li class="list_member">
+                        <input type="checkbox" name="python" id="python"/>
+                        <label for="python">Python</label>
+                    </li>
+                    <li class="list_member">
+                        <input type="checkbox" name="php" id="php"/>
+                        <label for="php">PHP</label>
+                    </li>
+                    <li class="list_member">
+                        <input type="checkbox" name="java" id="java"/>
+                        <label for="java">Java</label>
+                    </li>
+                    <li class="list_member">
+                        <input type="checkbox" name="nodejs" id="nodejs"/>
+                        <label for="nodejs">NodeJS</label>
+                    </li>
+                    <li class="list_member">
+                        <input type="checkbox" name="reactjs" id="reactjs"/>
+                        <label for="reactjs">ReactJS</label>
+                    </li>
+                    <li class="list_member">
+                        <input type="checkbox" name="csharp" id="csharp"/>
+                        <label for="csharp">C#</label>
+                    </li>
+                </ul>
+                <div id="div2">
+                    <label for="os">Sur quel OS travaillez-vous ?</label>
+                    <select id="os">
+                        <option>--Choisir un OS--</option>
+                        <option>Windows</option>
+                        <option>OS X</option>
+                        <option>Linux</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+        <section class="block">
+            <h2 class="title">Information liées à la promotion</h2>
+            <ul>
+                <li>
+                    <label for="promo">promotion Beweb ?</label>
+                    <select id="promo"></select>
+                    <select id="promo2"></select>
+                </li>
+            </ul>
+            <div id="div3">
+                <label for="url">Merci de nous faire parvenir votre URL TD_1</label>
+                <input type="url" name="url" id="url" placeholder="URL"/>
+            </div>
+            <div id="div4">
+                <label for="question">Si vous avez des questions vous pouvez nous 
+                    les laisser en commentaire ci-dessous</label>
+                <textarea style="resize: none;" cols="100" rows="15" id="question"></textarea>
+            </div>
+            <input type="button" value="Envoyer" id="envoyer"/>
+        </section>
+        <p id="end_text"><i> * Champs Obligatoires</i></p>
+    </main>
+</body>
+</html>
