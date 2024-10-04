@@ -1,5 +1,6 @@
 #main_text {
-
+    text-decoration: underline, rgb(49, 49, 49);
+    font-size: 100px;
     text-align: center;
 }
 
